@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Menu"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/mar">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogo Da Velha: One Piece"
+        android:textColor="#8F000000"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Expedição dos sete mares"
+        android:textStyle="italic"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btMaquina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogar com a máquina"
+        android:onClick="buttonClick" />
+
+    <Button
+        android:id="@+id/btJogodavelha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jogar o jogo da velha simples"
+        android:onClick="buttonClick"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="By: RNT9"
+        android:textStyle="italic"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>
